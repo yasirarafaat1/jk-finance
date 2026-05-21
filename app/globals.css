@@ -54,6 +54,18 @@ body {
   font-weight: 700;
 }
 
+.section-pad {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .section-pad {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
 /* ── Calculator ── */
 .calculator-card {
   background: var(--warm-white);

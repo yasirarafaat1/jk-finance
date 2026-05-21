@@ -79,7 +79,7 @@ const Header: React.FC = () => {
 
             {/* Mobile Menu */}
             {mobileOpen && (
-                <div className="md:hidden bg-warm-white border-t border-platinum px-6 py-4 space-y-3">
+                <div className="md:hidden bg-warm-white backdrop-blur border-t border-platinum px-6 py-4 space-y-3 shadow-lg">
                     {navLinks.map((item) => (
                         <Link
                             key={item.label}

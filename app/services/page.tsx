@@ -78,7 +78,7 @@ export default function ServicesPage() {
         <>
             <Header />
             <main className="pt-20">
-                <section className="py-14 px-6 lg:px-10 bg-white">
+                <section className="section-pad px-6 lg:px-10 bg-white">
                     <div className="max-w-6xl mx-auto">
                         <div className="mb-10">
                             <p className="text-xs font-bold uppercase tracking-widest text-sapphire mb-3" style={{ fontFamily: 'DM Sans, sans-serif' }}>
@@ -154,7 +154,7 @@ export default function ServicesPage() {
                     </div>
                 </section>
 
-                <section className="py-16 px-6 lg:px-10 bg-arctic-white">
+                <section className="section-pad px-6 lg:px-10 bg-arctic-white">
                     <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
                         <div>
                             <h2 className="text-section-heading text-charcoal">Need help choosing the right loan?</h2>

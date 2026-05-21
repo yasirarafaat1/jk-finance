@@ -112,7 +112,7 @@ export default function HomePage() {
                 </section>
 
                 {/* Services Overview */}
-                <section className="py-20 px-6 lg:px-10 bg-white">
+                <section className="section-pad px-6 lg:px-10 bg-white">
                     <div className="max-w-6xl mx-auto">
                         <div className="text-center mb-12">
                             <h2 className="font-bold text-charcoal mb-3" style={{ fontSize: 'clamp(1.6rem, 3vw, 2.4rem)', fontFamily: 'DM Sans, sans-serif', letterSpacing: '-0.02em' }}>
@@ -155,7 +155,7 @@ export default function HomePage() {
 
                 {/* CTA */}
                 <section
-                    className="py-20 px-6 lg:px-10 relative overflow-hidden"
+                    className="section-pad px-6 lg:px-10 relative overflow-hidden"
                     style={{ background: 'linear-gradient(135deg, #1B4F8A 0%, #143D6B 100%)' }}
                 >
                     <div className="relative z-10 max-w-3xl mx-auto text-center">
