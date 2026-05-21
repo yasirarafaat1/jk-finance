@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Quote } from 'lucide-react';
-import AppImage from '@/app/components/ui/AppImage';
+import AppImage from '../../components/ui/AppImage';
 
 interface Testimonial {
     quote: string;

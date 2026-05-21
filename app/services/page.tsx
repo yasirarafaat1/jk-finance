@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 import type { LucideIcon } from 'lucide-react';
 import { ArrowRight, Briefcase, Car, CreditCard, Home, KeyRound, PhoneCall, User, Wallet } from 'lucide-react';
-import Header from '@/app/components/Header';
-import Footer from '@/app/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 interface Service {
     slug: string;

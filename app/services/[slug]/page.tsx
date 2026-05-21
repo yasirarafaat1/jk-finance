@@ -19,8 +19,8 @@ import {
     Wallet,
     X,
 } from 'lucide-react';
-import Header from '@/app/components/Header';
-import Footer from '@/app/components/Footer';
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 interface Service {
     slug: string;

@@ -15,8 +15,8 @@ import {
     User,
     Wallet,
 } from 'lucide-react';
-import Header from '@/app/components/Header';
-import Footer from '@/app/components/Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const services: { name: string; icon: LucideIcon; slug: string }[] = [
     { name: 'Personal Loan', icon: User, slug: 'personal-loan' },
